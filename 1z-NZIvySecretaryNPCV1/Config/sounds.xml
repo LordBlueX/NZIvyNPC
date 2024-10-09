@@ -1,0 +1,105 @@
+<configs>
+	<append xpath="/Sounds">
+	
+		<!--For NZ Ivy -->
+		
+		<SoundDataNode name="NZIVYAlert">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.1" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyAlerting1" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyAlerting2" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyAlerting3" /> 
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<SoundDataNode name="NZIVYAttack">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.1" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyATK1" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyATK2" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyATK3" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyATK4" /> 
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<SoundDataNode name="NZIVYRandom">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyRandom1" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyRandom2" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyRandom3" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyRandom4" /> 
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<SoundDataNode name="NZIVYHurt">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.1" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyHurt1" /> 
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvyHurt2" /> 
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<SoundDataNode name="NZIVYSense">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvySense1" /> <!-- ICanSeeYou , MaidIroha_AggroV2 -->
+			<AudioClip ClipName="#@modfolder:Resources/NZIVYVoiceSet.unity3d?NZIvySense2" /> <!-- ICanSeeYou , MaidIroha_AggroV2 -->
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<!-- Not Doing Death Voices For NPCs -->
+		<!--<SoundDataNode name="HarleyDie">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/HarleySounds.unity3d?Die02" />
+			<AudioClip ClipName="#@modfolder:Resources/HarleySounds.unity3d?Die01" />
+			<AudioClip ClipName="#@modfolder:Resources/HarleySounds.unity3d?Isntfunny" />
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>
+		<SoundDataNode name="HarleyInfected">
+			<AudioSource name="Sounds/AudioSource_VO" />
+			<Channel name="Mouth"/>
+			<Noise ID="3" range="100" volume="15" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+			<AudioClip ClipName="#@modfolder:Resources/HarleySounds.unity3d?Die01" />
+			<AudioClip ClipName="#@modfolder:Resources/HarleySounds.unity3d?Isntfunny" />
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="0.5" />
+			<NoiseScale name="1" />
+			<MaxVoices name="10" />
+			<maxVoicesPerEntity name="1" />
+			<MaxRepeatRate name="3.0" />
+		</SoundDataNode>	-->	
+	</append>
+</configs>

@@ -1,0 +1,203 @@
+<configs>
+
+<append xpath="/blocks">
+
+<!-- NPC NZSCIVY Blocks -->
+<!-- Properties: Model , Custom Icon , Eco , Non Sellable  Has been added -->
+
+<block name="NZSCIvyEHSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyEmptyHand;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyLBSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyLBow;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyAXSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyAxe;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyBTSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyBat;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyPstlSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyPistol;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyDPstlSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyDPistol;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyMSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyMachete;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+
+<block name="NZSCIvyKSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyKnife;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyPipePstlSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyPipePistol;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyAKSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyAK47;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyASSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyAShotgun;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyHRSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyHRifle;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyM60SSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyM60;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyTRflSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyTRifle;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyPSSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyPShotgun;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvySMGSSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvySMG;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvySRSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvySRifle;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyXBSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyXBow;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+<block name="NZSCIvyPMGSpawnCube">
+	<property name="Extends" value="SpawnCube"/>
+	<property name="Class" value="SpawnCube2SDX, SCore" />
+	<property name="Config" value="ec=NZSCIvyPipeMG;task=stay;pc=0;leader=yes" />
+	<property name="Model" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+	<property name="CustomIcon" value="SCNZsIVYICON"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="SellableToTrader" value="false"/>
+</block>
+
+
+</append>
+
+
+</configs>

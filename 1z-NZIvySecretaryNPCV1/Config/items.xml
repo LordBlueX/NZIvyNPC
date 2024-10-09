@@ -1,0 +1,45 @@
+<configs>
+	<append xpath="/items">
+	
+		<item name="NZSCIvySummonSphere">
+			<property name="HoldType" value="7"/>
+			<property name="HoldingItemHidden" value="true"/>
+			<property name="Meshfile" value="#@modfolder:Resources/XythNPCs.unity3d?placementfemale"/> <!-- SC_Ivy Model -->
+			<property name="DropMeshfile"  value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="0"/>
+			<property name="Stacknumber" value="1"/> <!-- STK resource -->
+			<property name="EconomicValue" value="6000"/>
+			<property name="CustomIcon" value="SCNZsIVYICON"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action1">
+				<property name="Class" value="DeployNPCSDX, SCore"/>
+			</property>
+		</item>
+	
+		<item name="NZIvyPickUpNPC">
+			<property name="Extends" value="NZSCIvySummonSphere" />
+			<property name="EntityClass" value="NZSCIvyEmptyHand,NZSCIvyLBow,NZSCIvyAxe,NZSCIvyBat,NZSCIvyPistol,NZSCIvyDPistol,NZSCIvyMachete,NZSCIvyKnife,NZSCIvyPipePistol,NZSCIvyAK47,NZSCIvyAShotgun,NZSCIvyHRifle,NZSCIvyM60,NZSCIvyTRifle,NZSCIvyPShotgun,NZSCIvySMG,NZSCIvySRifle,NZSCIvyXBow,NZSCIvyPipeMG" />
+          <property name="Meshfile" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+		  <property name="CustomIcon" value="SCNZsIVYICON"/>
+        </item>
+		
+		<!--
+		<item name="spherePickUpNPC">
+          <property name="HoldType" value="7"/>
+          <property name="Meshfile" value="#@modfolder:Resources/XythNPCs.unity3d?placementfemale"/>
+          <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/> 
+          <property name="Material" value="Mmetal"/>
+          <property name="HoldingItemHidden" value="true"/>
+          <property name="Weight" value="0"/>
+          <property name="Stacknumber" value="1"/>
+          <property name="EconomicValue" value="6000"/>
+          <property name="CustomIcon" value="schematicMaster" />
+          <property name="SellableToTrader" value="false"/>
+          <property class="Action1">
+            <property name="Class" value="DeployNPCSDX, SCore"/>
+          </property>
+        </item> -->
+	
+	</append>
+</configs>

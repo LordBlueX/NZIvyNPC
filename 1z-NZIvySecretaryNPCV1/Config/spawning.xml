@@ -1,0 +1,49 @@
+<configs>
+
+	<append xpath="/spawning/biome[@name='pine_forest']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="downtown" />
+		<!-- <spawn maxcount="1" respawndelay="3.2" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" /> -->
+	</append>
+	
+	<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="downtown" />
+	</append>
+	
+	<append xpath="/spawning/biome[@name='desert']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="downtown" />
+	</append>	
+	
+	<append xpath="/spawning/biome[@name='snow']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="downtown" />
+	</append>	
+	
+	<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" notags="commercial,industrial,downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="commercial,industrial" notags="downtown" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="NPCNZIVYGroupDay" tags="downtown" />
+		<spawn maxcount="1" respawndelay="1.5" time="Night" entitygroup="NPCNZIVYGroupNight" tags="downtown" />
+	</append>	
+	
+</configs>
