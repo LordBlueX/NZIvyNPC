@@ -1,0 +1,21 @@
+Instructions
+
+The "Adding Hostile Versions" Folder has some files that can Replace The current files in the mod
+
+(rename it to match the current file then Copy and Paste or Drag and drop) to replace the current file with the one from the Options Folder
+
+** WARNING ** 
+
+The Hostiles isint perfect to hurt , So please Aim Precisely , OR Use a Molotov , Or Bombs to Directly Hurt These Hostiles!
+
+Adding The Hostiles Will Be Mixed With the Friendly Variations!
+
+You'll Know Friend from Foe With Names
+
+** I Did An Oopsie **
+
+If you Somehow Messed Up or Want to Remove these Hostiles
+
+Dont Worry I made a Duplicate Of the Original "FilenameCCopy.xxx" , CCopy = Clean Copy , within the Options Folder.
+
+you know the drill , rename it to match the current file and copy and paste or drag and drop to replace the file

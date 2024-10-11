@@ -20,7 +20,7 @@
 		<item name="NZIvyPickUpNPC">
 			<property name="Extends" value="NZSCIvySummonSphere" />
 			<property name="EntityClass" value="NZSCIvyEmptyHand,NZSCIvyLBow,NZSCIvyAxe,NZSCIvyBat,NZSCIvyPistol,NZSCIvyDPistol,NZSCIvyMachete,NZSCIvyKnife,NZSCIvyPipePistol,NZSCIvyAK47,NZSCIvyAShotgun,NZSCIvyHRifle,NZSCIvyM60,NZSCIvyTRifle,NZSCIvyPShotgun,NZSCIvySMG,NZSCIvySRifle,NZSCIvyXBow,NZSCIvyPipeMG" />
-          <property name="Meshfile" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+          <property name="Meshfile" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 		  <property name="CustomIcon" value="SCNZsIVYICON"/>
         </item>
 		

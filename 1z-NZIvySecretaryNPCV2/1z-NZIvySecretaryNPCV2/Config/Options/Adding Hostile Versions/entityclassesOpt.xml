@@ -9,6 +9,7 @@
 		<!-- NPC SCIVY With Nothing -->
 		<entity_class name="NZSCIvyEmptyHand" extends="npcAdvancedEmptyHandTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCMeleeAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/>
@@ -22,7 +23,7 @@
 			<property name="HireCost" value="500" />
 			<property name="Names" value="EHNZIvy" />	
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>  <!-- Was false , will test true -->
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -58,6 +59,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->			
 			<property name="HasRagdoll" value="true"/>  <!-- Was false , will test true -->
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCEmptyHand,medicalFirstAidBandage"/> <!-- example for extra items on spawn  -->
@@ -105,6 +107,7 @@
 		<!-- NPC SCIVY With LBow -->
 		<entity_class name="NZSCIvyLBow" extends="npcAdvancedLBowTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -120,7 +123,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -156,6 +159,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -196,6 +200,7 @@
 		<!-- NPC SCIVY With Axe -->
 		<entity_class name="NZSCIvyAxe" extends="npcAdvancedAxeTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCMeleeAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -211,7 +216,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -247,6 +252,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -287,6 +293,7 @@
 		<!-- NPC SCIVY With Bat -->
 		<entity_class name="NZSCIvyBat" extends="npcAdvancedBatTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCMeleeAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -302,7 +309,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -338,6 +345,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -378,6 +386,7 @@
 		<!-- NPC SCIVY With Pistol -->
 		<entity_class name="NZSCIvyPistol" extends="npcAdvancedPistolTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -393,7 +402,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -429,6 +438,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -469,6 +479,7 @@
 		<!-- NPC SCIVY With DPistol -->
 		<entity_class name="NZSCIvyDPistol" extends="npcAdvancedDPistolTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -484,7 +495,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -520,6 +531,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -560,6 +572,7 @@
 		<!-- NPC SCIVY With Machete -->
 		<entity_class name="NZSCIvyMachete" extends="npcAdvancedMacheteTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCMeleeAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -575,7 +588,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -611,6 +624,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -651,6 +665,7 @@
 		<!-- NPC SCIVY With Knife -->
 		<entity_class name="NZSCIvyKnife" extends="npcAdvancedKnifeTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCMeleeAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -666,7 +681,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -702,6 +717,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -742,6 +758,7 @@
 		<!-- NPC SCIVY With PipePistol -->
 		<entity_class name="NZSCIvyPipePistol" extends="npcAdvancedPipePistolTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -757,7 +774,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -793,6 +810,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -833,6 +851,7 @@
 		<!-- NPC SCIVY With AK47 -->
 		<entity_class name="NZSCIvyAK47" extends="npcAdvancedAK47Template"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -848,7 +867,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -884,6 +903,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -924,6 +944,7 @@
 		<!-- NPC SCIVY With AShotgun -->
 		<entity_class name="NZSCIvyAShotgun" extends="npcAdvancedAShotgunTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -939,7 +960,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -975,6 +996,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1015,6 +1037,7 @@
 		<!-- NPC SCIVY With HRifle -->
 		<entity_class name="NZSCIvyHRifle" extends="npcAdvancedHRifleTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1030,7 +1053,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1066,6 +1089,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1107,6 +1131,7 @@
 		<!-- NPC SCIVY With M60 -->
 		<entity_class name="NZSCIvyM60" extends="npcAdvancedM60Template"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1122,7 +1147,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1158,6 +1183,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1199,6 +1225,7 @@
 		<!-- NPC SCIVY With TRifle -->
 		<entity_class name="NZSCIvyTRifle" extends="npcAdvancedTRifleTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1214,7 +1241,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1250,6 +1277,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1290,6 +1318,7 @@
 		<!-- NPC SCIVY With PShotgun -->
 		<entity_class name="NZSCIvyPShotgun" extends="npcAdvancedPShotgunTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1305,7 +1334,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1341,6 +1370,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1381,6 +1411,7 @@
 		<!-- NPC SCIVY With SMG -->
 		<entity_class name="NZSCIvySMG" extends="npcAdvancedSMGTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1396,7 +1427,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1432,6 +1463,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1472,6 +1504,7 @@
 		<!-- NPC SCIVY With SRifle -->
 		<entity_class name="NZSCIvySRifle" extends="npcAdvancedSRifleTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1487,7 +1520,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1523,6 +1556,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1563,6 +1597,7 @@
 		<!-- NPC SCIVY With XBow -->
 		<entity_class name="NZSCIvyXBow" extends="npcAdvancedXBowTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1578,7 +1613,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1614,6 +1649,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1654,6 +1690,7 @@
 		<!-- NPC SCIVY With PipeMG -->
 		<entity_class name="NZSCIvyPipeMG" extends="npcAdvancedPipeMGTemplate"> 
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="AIPackages" value="NPCModCore, NPCModNPCHired, NPCModNPCMeleeBasic, NPCModNPCRangedBasic, NPCModNPCMeleeAdvanced, NPCModNPCRangedAdvanced"/>
 			<property name="SleeperInstantAwake" value="true" /> <!-- Added Text -->
 			<property name="EntityType" value="Player"/>
 			<property name="UserSpawnType" value="Menu"/> 
@@ -1669,7 +1706,7 @@
 			<property name="PickUpItem" value="NZIvyPickUpNPC" />
 			<property name="LookAtAngle" value="0"/> 
 			<property name="NPCID" value="NPCGenericNurse"/>
-			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary.unity3d?NZ_IVY_Secretary"/>
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
@@ -1705,6 +1742,7 @@
 			<property name="ChestExplosionDamageMultiplier" value="1"/> <!-- New Code Added For Gore ? -->
 			<property name="PainResistPerHit" value="0"/> <!-- Added when hit. Caps at 3. Decay .2 per second. At 1 movement is not slowed by pain -->						
 			<property name="HasRagdoll" value="true"/>
+			<property name="TimeStayAfterDeath" value="3"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Players"/>
 			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
@@ -1740,6 +1778,283 @@
 				<passive_effect name="HealthMax" operation="base_set" value="250,300"/>
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
 			</effect_group>	
+		</entity_class>	
+
+		<!-- Hostile NPC Ivys -->
+		
+		<!-- Hostile IVY With Nothing -->
+		<entity_class name="HIvyEmptyHand" extends="npcBanditEmptyHandTemplate"> <!-- was "npcBanditEmptyHandTemplate" , npcMeleeBanditTemplate , npcEmptyHandTemplate -->
+			<!--<property name="SleeperInstantAwake" value="true" /> Added Text -->
+			<!--<property name="EntityType" value="Player"/> -->
+			<property name="IsEnemyEntity" value="true"/> <!-- Makes it Hostile -->
+			<property name="UserSpawnType" value="Menu"/> <!-- Was None -->
+			<property name="CustomIcon" value="SCNZsIVYICON"/>
+			<property name="Tags" value="entity,female,npc,walker,melee,bandit,cp,DRLow,Knife,Machete"/> <!-- Added cp ,and help support Melee NPCs -->
+			<property name="AvatarController" value="AvatarZombieController"/> <!-- Added Text -->
+			<property name="Faction" value="bandits"/>
+			<property name="PhysicsBody" value="NZIVYSecRig"/>
+			<property name="LookAtAngle" value="0"/> 
+			<!--<property name="HireCurrency" value="casinoCoin" /> Turned Off Making it Hostile -->
+			<!--<property name="HireCost" value="500" /> Making It Hostile -->
+			<property name="Names" value="HIvy" />	
+			<!--<property name="PickUpItem" value="NZIvyPickUpNPC" /> You Cant Pick Up Hostiles -->
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
+			<property name="RootMotion" value="true"/>
+			<property name="HasDeathAnim" value="true"/>  <!-- Was false , will test true -->
+			<property name="HasRagdoll" value="true"/>  <!-- Was false , will test true -->
+			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
+			<property name="SurfaceCategory" value="organic"/> 	
+			<property name="TimeStayAfterDeath" value="3"/>
+			<!--<property name="Prefab" value="NPC"/> -->
+			<!--<property name="Parent" value="Players"/>-->
+			<!--<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCEmptyHand"/> example for extra items on spawn  -->
+			<!--<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCEmptyHand"/> -->
+			<!--<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeNPCEmptyHand"/> -->
+			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
+			<property name="SoundHurtSmall" value="Player_Female/player2painsm"/>
+			<property name="SoundDeath" value="Player_Female/player2death"/>
+			<!--<property name="SoundDeath" value="HarleyDie"/> Adding Custom Voice , Not Adding One -->
+			<property name="SoundStamina" value="Player_Female/player2stamina"/>
+			<property name="SoundDrownPain" value="Player_Female/player2drownpain"/>
+			<property name="SoundWaterSurface" value="Player_Female/player2drownsurface"/>
+			<property name="SoundDrownDeath" value="Player_Female/player2drowndeath"/>
+			<property name="SoundJump" value="Player_Male/player2Jump"/>
+			<property name="SoundLandSoft" value="Player_Male/player2LandSoft"/>
+			<property name="SoundLandHard" value="Player_Male/player2LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="NZIVYRandom" /> <!--Adding Custom Voice -->
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="NZIVYAlert"/> <!-- Adding Custom Voice -->
+			<property name="SoundAttack" value="NZIVYAttack"/> <!--Adding Custom Voice -->
+			<property name="SoundSense" value="NZIVYSense"/> <!--Adding Custom Voice -->
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="Class" value="EntityNPCBandit, SCore" />
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic"/>
+			<property name="AlwaysJiggle" value="true" />
+			<property name="MaxViewAngle" value="360"/>		<!-- Added Text -->
+			<property name="SightRange" value="50"/>	<!-- Added Text -->
+			<property name="MaxTurnSpeed" value="359"/>		<!-- Added Text -->
+			<property name="SwimSpeed" value="1"/>	 <!-- Added Text -->
+			<property name="SwimStrokeRate" value="1,1.5"/>		 <!-- Added Text -->
+			<property name="CanClimbLadders" value="true"/>		 <!-- Added Text -->
+			<property name="JumpMaxDistance" value="2.8, 3.9"/> 	<!-- Added Text -->
+			<property name="WalkType" value="7"/>
+			
+			<!--<effect_group name="HasBackpack">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="HasBackpack"/>		
+			</effect_group> Hostiles Dont Pack Mules! --> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200,250"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+			</effect_group>
+			
+			<!--<effect_group name="Base Effects">	
+				<passive_effect name="HealthMax" operation="base_set" value="667"/> This Should Give 500 Base HP from DiffT0 , Value Times 75% 
+			</effect_group>	-->
+		</entity_class>	
+
+		<!-- Hostile IVY With Knife -->
+		<entity_class name="HIvyKnife" extends="npcBanditKnifeTemplate"> 
+			<!--<property name="SleeperInstantAwake" value="true" /> Added Text -->
+			<!--<property name="EntityType" value="Player"/> -->
+			<property name="IsEnemyEntity" value="true"/> <!-- Makes it Hostile -->
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="CustomIcon" value="SCNZsIVYICON"/>
+			<property name="Tags" value="entity,female,npc,walker,melee,bandit,cp,DRLow,Knife,Machete"/> <!-- Added cp ,and help support Melee NPCs -->
+			<property name="AvatarController" value="AvatarZombieController"/> <!-- Added Text -->
+			<property name="Faction" value="bandits"/>
+			<property name="PhysicsBody" value="NZIVYSecRig"/>
+			<property name="LookAtAngle" value="0"/> 
+			<!--<property name="HireCurrency" value="casinoCoin" /> Turned Off Making it Hostile -->
+			<!--<property name="HireCost" value="500" /> Making It Hostile -->
+			<property name="Names" value="HKIvy" />	
+			<!--<property name="PickUpItem" value="NZIvyPickUpNPC" /> You Cant Pick Up Hostiles -->
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
+			<property name="RootMotion" value="true"/>
+			<property name="HasDeathAnim" value="true"/>  <!-- Was false , will test true -->
+			<property name="HasRagdoll" value="true"/>  <!-- Was false , will test true -->
+			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
+			<property name="SurfaceCategory" value="organic"/> 
+			<property name="TimeStayAfterDeath" value="3"/>
+			<!--<property name="Prefab" value="NPC"/> -->
+			<!--<property name="Parent" value="Players"/> -->
+			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
+			<property name="SoundHurtSmall" value="Player_Female/player2painsm"/>
+			<property name="SoundDeath" value="Player_Female/player2death"/>
+			<!--<property name="SoundDeath" value="HarleyDie"/> Adding Custom Voice , Not Adding One -->
+			<property name="SoundStamina" value="Player_Female/player2stamina"/>
+			<property name="SoundDrownPain" value="Player_Female/player2drownpain"/>
+			<property name="SoundWaterSurface" value="Player_Female/player2drownsurface"/>
+			<property name="SoundDrownDeath" value="Player_Female/player2drowndeath"/>
+			<property name="SoundJump" value="Player_Male/player2Jump"/>
+			<property name="SoundLandSoft" value="Player_Male/player2LandSoft"/>
+			<property name="SoundLandHard" value="Player_Male/player2LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="NZIVYRandom" /> <!--Adding Custom Voice -->
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="NZIVYAlert"/> <!-- Adding Custom Voice -->
+			<property name="SoundAttack" value="NZIVYAttack"/> <!--Adding Custom Voice -->
+			<property name="SoundSense" value="NZIVYSense"/> <!--Adding Custom Voice -->
+			<property name="Class" value="EntityNPCBandit, SCore" />
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="AlwaysJiggle" value="true" />
+			<property name="MaxViewAngle" value="360"/>		<!-- Added Text -->
+			<property name="SightRange" value="50"/>	<!-- Added Text -->
+			<property name="MaxTurnSpeed" value="359"/>		<!-- Added Text -->
+			<property name="SwimSpeed" value="1"/>	 <!-- Added Text -->
+			<property name="SwimStrokeRate" value="1,1.5"/>		 <!-- Added Text -->
+			<property name="CanClimbLadders" value="true"/>		 <!-- Added Text -->
+			<property name="JumpMaxDistance" value="2.8, 3.9"/> 	<!-- Added Text -->
+			<property name="WalkType" value="7"/>
+			
+			<!--<effect_group name="HasBackpack">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="HasBackpack"/>		
+			</effect_group> Hostiles Dont Pack Mules! --> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200,300"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+			</effect_group>
+			
+			<!--<effect_group name="Base Effects">	
+				<passive_effect name="HealthMax" operation="base_set" value="667"/> This Should Give 500 Base HP from DiffT0 , Value Times 75% 
+			</effect_group>	-->
+		</entity_class>	
+
+		<!-- Hostile IVY With PipePistol -->
+		<entity_class name="HIvyPipePistol" extends="npcPipePistolTemplate"> 
+			<!--<property name="SleeperInstantAwake" value="true" /> Added Text -->
+			<!--<property name="EntityType" value="Player"/> -->
+			<property name="IsEnemyEntity" value="true"/> <!-- Makes it Hostile -->
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="CustomIcon" value="SCNZsIVYICON"/>
+			<property name="Tags" value="entity,female,npc,walker,melee,bandit,cp,DRLow,Knife,Machete,BatWood,Axe,SMG,PipePistol,PipeMG,M60,Pistol,DPistol,Ak47,TRifle,HRifle,SRifle,LBow,XBow,PShotgun,AShotgun"/> <!-- Added cp ,and help support Melee NPCs -->
+			<property name="AvatarController" value="AvatarZombieController"/> <!-- Added Text -->
+			<property name="Faction" value="bandits"/>
+			<property name="PhysicsBody" value="NZIVYSecRig"/>
+			<property name="LookAtAngle" value="0"/> 
+			<!--<property name="HireCurrency" value="casinoCoin" /> Turned Off Making it Hostile -->
+			<!--<property name="HireCost" value="500" /> Making It Hostile -->
+			<property name="Names" value="HPPistolIvy" />	
+			<!--<property name="PickUpItem" value="NZIvyPickUpNPC" /> You Cant Pick Up Hostiles -->
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
+			<property name="RootMotion" value="true"/>
+			<property name="HasDeathAnim" value="true"/>  <!-- Was false , will test true -->
+			<property name="HasRagdoll" value="true"/>  <!-- Was false , will test true -->
+			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
+			<property name="SurfaceCategory" value="organic"/> 
+			<property name="TimeStayAfterDeath" value="3"/>
+			<!--<property name="Prefab" value="NPC"/> -->
+			<!--<property name="Parent" value="Players"/> -->
+			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
+			<property name="SoundHurtSmall" value="Player_Female/player2painsm"/>
+			<property name="SoundDeath" value="Player_Female/player2death"/>
+			<!--<property name="SoundDeath" value="HarleyDie"/> Adding Custom Voice , Not Adding One -->
+			<property name="SoundStamina" value="Player_Female/player2stamina"/>
+			<property name="SoundDrownPain" value="Player_Female/player2drownpain"/>
+			<property name="SoundWaterSurface" value="Player_Female/player2drownsurface"/>
+			<property name="SoundDrownDeath" value="Player_Female/player2drowndeath"/>
+			<property name="SoundJump" value="Player_Male/player2Jump"/>
+			<property name="SoundLandSoft" value="Player_Male/player2LandSoft"/>
+			<property name="SoundLandHard" value="Player_Male/player2LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="NZIVYRandom" /> <!--Adding Custom Voice -->
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="NZIVYAlert"/> <!-- Adding Custom Voice -->
+			<property name="SoundAttack" value="NZIVYAttack"/> <!--Adding Custom Voice -->
+			<property name="SoundSense" value="NZIVYSense"/> <!--Adding Custom Voice -->
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="Class" value="EntityNPCBandit, SCore" />
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="AlwaysJiggle" value="true" />
+			<property name="MaxViewAngle" value="360"/>		<!-- Added Text -->
+			<property name="SightRange" value="50"/>	<!-- Added Text -->
+			<property name="MaxTurnSpeed" value="359"/>		<!-- Added Text -->
+			<property name="SwimSpeed" value="1"/>	 <!-- Added Text -->
+			<property name="SwimStrokeRate" value="1,1.5"/>		 <!-- Added Text -->
+			<property name="CanClimbLadders" value="true"/>		 <!-- Added Text -->
+			<property name="JumpMaxDistance" value="2.8, 3.9"/> 	<!-- Added Text -->
+			<property name="WalkType" value="7"/>
+			
+			<!--<effect_group name="HasBackpack">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="HasBackpack"/>		
+			</effect_group> Hostiles Dont Pack Mules! --> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200,300"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+			</effect_group>
+			
+			<!--<effect_group name="Base Effects">	
+				<passive_effect name="HealthMax" operation="base_set" value="667"/> This Should Give 500 Base HP from DiffT0 , Value Times 75% 
+			</effect_group>	-->
+		</entity_class>	
+
+		<!-- Hostile IVY With Sniper Rifle -->
+		<entity_class name="HIvySRifle" extends="npcSRifleTemplate"> 
+			<!--<property name="SleeperInstantAwake" value="true" /> Added Text -->
+			<!--<property name="EntityType" value="Player"/> -->
+			<property name="IsEnemyEntity" value="true"/> <!-- Makes it Hostile -->
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="CustomIcon" value="SCNZsIVYICON"/>
+			<property name="Tags" value="entity,female,npc,walker,melee,bandit,cp,DRLow,Knife,Machete,BatWood,Axe,SMG,PipePistol,PipeMG,M60,Pistol,DPistol,Ak47,TRifle,HRifle,SRifle,LBow,XBow,PShotgun,AShotgun"/> <!-- Added cp ,and help support Melee NPCs -->
+			<property name="AvatarController" value="AvatarZombieController"/> <!-- Added Text -->
+			<property name="Faction" value="bandits"/>
+			<property name="PhysicsBody" value="NZIVYSecRig"/>
+			<property name="LookAtAngle" value="0"/> 
+			<!--<property name="HireCurrency" value="casinoCoin" /> Turned Off Making it Hostile -->
+			<!--<property name="HireCost" value="500" /> Making It Hostile -->
+			<property name="Names" value="HSRIvy" />	
+			<!--<property name="PickUpItem" value="NZIvyPickUpNPC" /> You Cant Pick Up Hostiles -->
+			<property name="Mesh" value="#@modfolder:Resources/SCNZIVYSecretary2.unity3d?NZ_IVY_SecretaryV2"/>
+			<property name="RootMotion" value="true"/>
+			<property name="HasDeathAnim" value="true"/>  <!-- Was false , will test true -->
+			<property name="HasRagdoll" value="true"/>  <!-- Was false , will test true -->
+			<property name="ParticleOnDeath" value="blood_death"/> <!-- New Code Added For Gore ? -->
+			<property name="SurfaceCategory" value="organic"/> 
+			<property name="TimeStayAfterDeath" value="3"/>
+			<!--<property name="Prefab" value="NPC"/> -->
+			<!--<property name="Parent" value="Players"/> -->
+			<property name="SoundHurt" value="NZIVYHurt"/> <!--Adding Custom Voice -->
+			<property name="SoundHurtSmall" value="Player_Female/player2painsm"/>
+			<property name="SoundDeath" value="Player_Female/player2death"/>
+			<!--<property name="SoundDeath" value="HarleyDie"/> Adding Custom Voice , Not Adding One -->
+			<property name="SoundStamina" value="Player_Female/player2stamina"/>
+			<property name="SoundDrownPain" value="Player_Female/player2drownpain"/>
+			<property name="SoundWaterSurface" value="Player_Female/player2drownsurface"/>
+			<property name="SoundDrownDeath" value="Player_Female/player2drowndeath"/>
+			<property name="SoundJump" value="Player_Male/player2Jump"/>
+			<property name="SoundLandSoft" value="Player_Male/player2LandSoft"/>
+			<property name="SoundLandHard" value="Player_Male/player2LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="NZIVYRandom" /> <!--Adding Custom Voice -->
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="NZIVYAlert"/> <!-- Adding Custom Voice -->
+			<property name="SoundAttack" value="NZIVYAttack"/> <!--Adding Custom Voice -->
+			<property name="SoundSense" value="NZIVYSense"/> <!--Adding Custom Voice -->
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/> 
+			<property name="Class" value="EntityNPCBandit, SCore" /> 
+			<property name="AlwaysJiggle" value="true" />
+			<property name="MaxViewAngle" value="360"/>		<!-- Added Text -->
+			<property name="SightRange" value="50"/>	<!-- Added Text -->
+			<property name="MaxTurnSpeed" value="359"/>		<!-- Added Text -->
+			<property name="SwimSpeed" value="1"/>	 <!-- Added Text -->
+			<property name="SwimStrokeRate" value="1,1.5"/>		 <!-- Added Text -->
+			<property name="CanClimbLadders" value="true"/>		 <!-- Added Text -->
+			<property name="JumpMaxDistance" value="2.8, 3.9"/> 	<!-- Added Text -->
+			<property name="WalkType" value="7"/>
+			
+			<!--<effect_group name="HasBackpack">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="HasBackpack"/>		
+			</effect_group> Hostiles Dont Pack Mules! --> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200,300"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+			</effect_group>
+			
+			<!--<effect_group name="Base Effects">	
+				<passive_effect name="HealthMax" operation="base_set" value="667"/> This Should Give 500 Base HP from DiffT0 , Value Times 75% 
+			</effect_group>	-->
 		</entity_class>	
 
 

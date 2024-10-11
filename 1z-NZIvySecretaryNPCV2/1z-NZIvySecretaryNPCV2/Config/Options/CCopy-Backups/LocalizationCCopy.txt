@@ -1,0 +1,23 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+NZSCIvyEmptyHand,entityclasses,Entity,,,EHNZIvy,,,,,,,,,,,,,
+NZSCIvyLBow,entityclasses,Entity,,,LBNZIvy,,,,,,,,,,,,,
+NZSCIvyAxe,entityclasses,Entity,,,AxeNZIvy,,,,,,,,,,,,,
+NZSCIvyBat,entityclasses,Entity,,,BatNZIvy,,,,,,,,,,,,,
+NZSCIvyPistol,entityclasses,Entity,,,PNZIvy,,,,,,,,,,,,,
+NZSCIvyDPistol,entityclasses,Entity,,,DPNZIvy,,,,,,,,,,,,,
+NZSCIvyMachete,entityclasses,Entity,,,MNZIvy,,,,,,,,,,,,,
+NZSCIvyKnife,entityclasses,Entity,,,KNZIvy,,,,,,,,,,,,,
+NZSCIvyPipePistol,entityclasses,Entity,,,PipePNZIvy,,,,,,,,,,,,,
+NZSCIvyAK47,entityclasses,Entity,,,AKNZIvy,,,,,,,,,,,,,
+NZSCIvyAShotgun,entityclasses,Entity,,,ASNZIvy,,,,,,,,,,,,,
+NZSCIvyHRifle,entityclasses,Entity,,,HRNZIvy,,,,,,,,,,,,,
+NZSCIvyM60,entityclasses,Entity,,,M60NZIvy,,,,,,,,,,,,,
+NZSCIvyTRifle,entityclasses,Entity,,,NZIvyTR,,,,,,,,,,,,,
+NZSCIvyPShotgun,entityclasses,Entity,,,PSNZIvy,,,,,,,,,,,,,
+NZSCIvySMG,entityclasses,Entity,,,SMGNZIvy,,,,,,,,,,,,,
+NZSCIvySRifle,entityclasses,Entity,,,SRNZIvy,,,,,,,,,,,,,
+NZSCIvyXBow,entityclasses,Entity,,,XBNZIvy,,,,,,,,,,,,,
+NZSCIvyPipeMG,entityclasses,Entity,,,PipeMGNZIvy,,,,,,,,,,,,,
+
+NZSCIvySummonSphere,items,Item,,,Ivy's NPC,,,,

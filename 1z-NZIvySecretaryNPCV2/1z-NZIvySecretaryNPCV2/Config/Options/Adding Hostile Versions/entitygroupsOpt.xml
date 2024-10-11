@@ -1,0 +1,130 @@
+<configs>
+
+	<!--  New Way Of Spawning , for the spawning.xml Modified thanks to mr.devolver , and bdubyah for the tips	-->
+	
+	<append xpath="/entitygroups">
+
+		<!-- DAY -->
+
+		<entitygroup name="NPCNZIVYGroupDay"> <!-- Adding or Removing .20 to find the correct balance , those already at .20 will be set to .05 -->
+			NZSCIvyEmptyHand, .70
+			NZSCIvyLBow, .50
+			NZSCIvyAxe, .50
+			NZSCIvyBat, .50
+			NZSCIvyPistol, .40
+			NZSCIvyDPistol, .30
+			NZSCIvyMachete, .50
+			NZSCIvyKnife, .50
+			NZSCIvyPipePistol, .55
+			NZSCIvyAK47, .30
+			NZSCIvyAShotgun, .30
+			NZSCIvyHRifle, .30
+			NZSCIvyM60, .20
+			NZSCIvyTRifle, .20
+			NZSCIvyPShotgun, .30
+			NZSCIvySMG, .30
+			NZSCIvySRifle, .20
+			NZSCIvyXBow, .25
+			NZSCIvyPipeMG, .55
+			HIvyEmptyHand, .25
+			HIvyKnife, .25
+			HIvyPipePistol, .20
+			HIvySRifle, .10
+			none, 92
+		</entitygroup>
+
+		<!-- NIGHT --> 
+
+		<entitygroup name="NPCNZIVYGroupNight"> <!-- Adding or Removing .20 to find the correct balance , those already at .20 will be set to .05 -->
+			NZSCIvyEmptyHand, .50
+			NZSCIvyLBow, .30
+			NZSCIvyAxe, .30
+			NZSCIvyBat, .30
+			NZSCIvyPistol, .20
+			NZSCIvyDPistol, .10
+			NZSCIvyMachete, .30
+			NZSCIvyKnife, .30
+			NZSCIvyPipePistol, .35
+			NZSCIvyAK47, .10
+			NZSCIvyAShotgun, .10
+			NZSCIvyHRifle, .10
+			NZSCIvyM60, .05
+			NZSCIvyTRifle, .05
+			NZSCIvyPShotgun, .10
+			NZSCIvySMG, .10
+			NZSCIvySRifle, .05
+			NZSCIvyXBow, .05
+			NZSCIvyPipeMG, .35
+			HIvyEmptyHand, .35
+			HIvyKnife, .35
+			HIvyPipePistol, .30
+			HIvySRifle, .25
+			none, 90
+		</entitygroup>
+		
+	</append>
+
+
+		<!-- *** BIOME_ALL_ZOMBIES_GROUP , Old Method 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >		
+		NAIrohaMachete
+		NAIrohaAK47
+		NAIrohaPShotgun
+		NAIrohaSRifle
+		NAIrohaLBow
+		NAIrohaXBow
+	</csv>
+
+	 *** BIOME_ZOMBIES_NIGHT_GROUP 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
+		NAIrohaMachete, .25
+		NAIrohaAK47, .25
+		NAIrohaPShotgun, .25
+		NAIrohaSRifle, .25
+		NAIrohaLBow, .25
+		NAIrohaXBow, .25
+	</csv>
+	
+	 *** BIOME_ZOMBIES_LUMBERJACK_GROUPS 
+	<csv xpath="/entitygroups/entitygroup[@name='SnowZombies']/text()" delim="\n" op="add" >
+		NAIrohaMachete
+		NAIrohaAK47
+		NAIrohaPShotgun
+		NAIrohaSRifle
+		NAIrohaLBow
+		NAIrohaXBow
+	</csv>
+
+	 *** BIOME_ZOMBIES_WASTELAND_GROUP 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		NAIrohaMachete
+		NAIrohaAK47
+		NAIrohaPShotgun
+		NAIrohaSRifle
+		NAIrohaLBow
+		NAIrohaXBow
+	</csv>
+	
+	 *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		NAIrohaMachete, .25
+		NAIrohaAK47, .25
+		NAIrohaPShotgun, .25
+		NAIrohaSRifle, .25
+		NAIrohaLBow, .25
+		NAIrohaXBow, .25
+	</csv>
+
+	 *** BIOME_ZOMBIES_BURNT_FOREST_GROUP 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
+		NAIrohaMachete, .50
+		NAIrohaAK47, .50
+		NAIrohaPShotgun, .50
+		NAIrohaSRifle, .50
+		NAIrohaLBow, .50
+		NAIrohaXBow, .50
+	</csv>	-->
+
+
+
+</configs>
